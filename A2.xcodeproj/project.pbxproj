@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B49918519969B1700178E11 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B49918419969B1700178E11 /* Data.plist */; };
 		8B9F82CB199329710053A7B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F82CA199329710053A7B5 /* AppDelegate.swift */; };
 		8B9F82CD199329710053A7B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F82CC199329710053A7B5 /* ViewController.swift */; };
 		8B9F82D0199329710053A7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F82CE199329710053A7B5 /* Main.storyboard */; };
 		8B9F82D2199329710053A7B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F82D1199329710053A7B5 /* Images.xcassets */; };
 		8B9F82DE199329710053A7B5 /* A2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F82DD199329710053A7B5 /* A2Tests.swift */; };
+		8B9F82E8199329AE0053A7B5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F82E7199329AE0053A7B5 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B49918419969B1700178E11 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = ../Data.plist; sourceTree = "<group>"; };
 		8B9F82C5199329710053A7B5 /* A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F82C9199329710053A7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9F82CA199329710053A7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		8B9F82D7199329710053A7B5 /* A2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F82DC199329710053A7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9F82DD199329710053A7B5 /* A2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2Tests.swift; sourceTree = "<group>"; };
+		8B9F82E7199329AE0053A7B5 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				8B9F82CA199329710053A7B5 /* AppDelegate.swift */,
+				8B9F82E7199329AE0053A7B5 /* Person.swift */,
 				8B9F82CC199329710053A7B5 /* ViewController.swift */,
 				8B9F82CE199329710053A7B5 /* Main.storyboard */,
 				8B9F82D1199329710053A7B5 /* Images.xcassets */,
@@ -87,6 +92,7 @@
 		8B9F82C8199329710053A7B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B49918419969B1700178E11 /* Data.plist */,
 				8B9F82C9199329710053A7B5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B49918519969B1700178E11 /* Data.plist in Resources */,
 				8B9F82D0199329710053A7B5 /* Main.storyboard in Resources */,
 				8B9F82D2199329710053A7B5 /* Images.xcassets in Resources */,
 			);
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9F82E8199329AE0053A7B5 /* Person.swift in Sources */,
 				8B9F82CD199329710053A7B5 /* ViewController.swift in Sources */,
 				8B9F82CB199329710053A7B5 /* AppDelegate.swift in Sources */,
 			);
@@ -395,6 +403,7 @@
 				8B9F82E3199329710053A7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B9F82E4199329710053A7B5 /* Build configuration list for PBXNativeTarget "A2Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +412,7 @@
 				8B9F82E6199329710053A7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
