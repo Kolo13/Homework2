@@ -19,43 +19,28 @@ class ViewController: UIViewController {
     
   func initializeRoster (nameFirst: [String], nameLast: [String]) -> [Person] {
     var roster = [Person]()
-
+    
     for var i = 0; i < nameFirst.count; i++ {
-      
       roster.append(Person(firstName: (studentFirst[i]), lastName: (studentLast[i])))
     }
-    
-     return(roster)
-   }
-  
-    func rosterFunc (nameRoster: [Person], i: Int)-> String {
-      var fullName : String = ""
-      fullName = nameRoster[i].firstName + " " + nameRoster[i].lastName
-      
-      return(fullName)
-    }
-    
-    
-   rosterList = initializeRoster(studentFirst, studentLast)
-    for var i = 0; i < rosterList.count; i++ {
-    println(rosterFunc(rosterList, i))
-    }
-    
-    
-    
-    
-    
-    
-    
-    // Do any additional setup after loading the view, typically from a nib.
+    return(roster)
   }
+  
+    
+  rosterList = initializeRoster(studentFirst, studentLast)
+    
+    for var i = 0; i < rosterList.count; i++ {
+      println(rosterList[i].fullName())
+    }
+  }
+    
+  @IBAction func didClick(sender: UIButton) {
+  }
+  // Do any additional setup after loading the view, typically from a nib.
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
 
-  
-  
 }
-

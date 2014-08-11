@@ -15,12 +15,13 @@ class Person {
   var lastName : String
   var profileImage : UIImage?
   
+  
   init (firstName : String, lastName : String) {
     self.firstName = firstName
     self.lastName = lastName
   }
   
-  
-  
-
+  func fullName()-> String {
+    return(self.firstName + " " + self.lastName)
+  }
 }
