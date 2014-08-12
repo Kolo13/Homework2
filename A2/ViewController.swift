@@ -13,15 +13,16 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    
     var rosterList = [Person]()
     var studentFirst = ["Kori", "Jackie", "Mike", "John"]
-    var studentLast = ["Kolo", "Chan", "Myers", "Paul"]
+    var studentLast = ["Kolodziejczak", "Chan", "Myers", "Paul"]
     
   func initializeRoster (nameFirst: [String], nameLast: [String]) -> [Person] {
     var roster = [Person]()
     
     for var i = 0; i < nameFirst.count; i++ {
-      roster.append(Person(firstName: (studentFirst[i]), lastName: (studentLast[i])))
+      roster.append(Person(firstName: nameFirst[i], lastName: nameLast[i]))
     }
     return(roster)
   }
