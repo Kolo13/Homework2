@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     
     
     var rosterList = [Person]()
-    var studentFirst = ["Kori", "Jackie", "Mike", "John"]
-    var studentLast = ["Kolodziejczak", "Chan", "Myers", "Paul"]
+    var studentFirst = ["Kori", "Brian", "Tuan", "Nathan"]
+    var studentLast = ["Kolodziejczak", "Mendez", "Vu", "Ma"]
     
   func initializeRoster (nameFirst: [String], nameLast: [String]) -> [Person] {
     var roster = [Person]()
