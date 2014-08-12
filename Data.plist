@@ -2,17 +2,145 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>FirstName</key>
-	<array>
+	<key>Student - 1</key>
+	<dict>
+		<key>firstName</key>
 		<string>Kori</string>
-	</array>
-	<key>LastName</key>
-	<array>
+		<key>lastName</key>
 		<string>Kolodziejczak</string>
-	</array>
-	<key>Pic</key>
-	<array>
-		<data></data>
-	</array>
+	</dict>
+	<key>Student - 2</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 3</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 4</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 5</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 6</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 7</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 8</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 9</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 10</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 11</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 12</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 13</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 14</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 15</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 16</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 17</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 18</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 19</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
+	<key>Student - 20</key>
+	<dict>
+		<key>firstName</key>
+		<string></string>
+		<key>lastName</key>
+		<string></string>
+	</dict>
 </dict>
 </plist>
